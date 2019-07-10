@@ -1,0 +1,41 @@
+body {
+    width: 45vw;
+    margin: 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.modal-dialog {
+    display: flex;
+    position: fixed;
+    left: calc(50% - 175px);
+    top: calc(50% - 90px);
+    flex-direction: column;
+    border: 5px solid black;
+    background-color: white;
+    margin: 10px;
+    width: 350px;
+    height: 180px;
+}
+
+.modal-title {
+    display: flex;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-size: 1.6rem;
+}
+
+.modal-content {
+    margin: 10px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+button {
+    margin: 3px;
+}
